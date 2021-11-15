@@ -87,8 +87,29 @@ header {
     flex: 1 1 80%;
     padding: 0 0 0 20px;   
     margin: 0 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .right-column p {
     padding: 20px 20px 20px 0;
+}
+.work-sample {
+    flex: 1;
+    margin: 7px;
+    min-width: 260px;
+    min-height: 60px;
+    border-style: solid;
+    border-color: tomato;
+    border-width: thin;
+}
+
+.work-sample-hero {
+    flex-grow: 4;
+    margin: 7px;
+    min-width: 90%;
+    min-height: 60px;
+    border-style: solid;
+    border-color: tomato;
+    border-width: thin;
 }
