@@ -46,8 +46,9 @@ header {
   }
 
   .hero { 
-    background-image: url("../images/hero-bg.jpeg");
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4kwallpapers.com%2Fimages%2Fwalls%2Fthumbs_3t%2F2276.png&f=1&nofb=1");
     background-color: tomato;
+    background-size: 100%;
     height: 200px;
     background-position: center;
     background-size: cover;
@@ -64,7 +65,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     margin: auto;  
-    width: 70%;
+    width: 80%;
 }
 
 .portfolio-section h3 {  
@@ -98,18 +99,41 @@ header {
     flex: 1;
     margin: 7px;
     min-width: 260px;
-    min-height: 60px;
+    min-height: 160px;
+    max-height: 160px;
+    padding: 0;
+
     border-style: solid;
     border-color: tomato;
     border-width: thin;
+}
+h4 {
+  position: absolute;
+  margin: 100px 0 0 20px;
+  color: #fff7e9;
+  font-size: 24px;
+  height: 60px;
+  width: 200px;
+  background-color:rgba(255, 99, 71, 0.664);
+  border-radius: 10px 10px 0 0; 
 }
 
 .work-sample-hero {
     flex-grow: 4;
     margin: 7px;
+    padding: 0;
     min-width: 90%;
-    min-height: 60px;
+    min-height: 160px;
+    max-height: 160px;
     border-style: solid;
     border-color: tomato;
-    border-width: thin;
+    border-width: 1px;
+}
+
+.img-bg {
+   width: 100%;
+   padding: 0;
+   margin: 0;
+   height: 160px;
+   object-fit: cover;
 }
